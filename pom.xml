@@ -30,9 +30,16 @@
 		<java.version>24</java.version>
 	</properties>
 	<dependencies>
+		<!-- Starter principal do Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		
+		<!-- Spring Web (Controladores REST, MVC, etc.) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
